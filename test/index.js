@@ -17,9 +17,9 @@ test('tslint standard', function (t) {
     })
 
   testCases.forEach(function (testCase) {
-    t.test(path.basename(testCase).replace(EXT_REGEX, ''), function (t) {
-      var filename = path.relative(__dirname, testCase)
+    var filename = path.relative(__dirname, testCase)
 
+    t.test(filename.replace(EXT_REGEX, ''), function (t) {
       exec('node ' + TSLINT_BIN + ' --config ' + CONFIG_FILE + ' ' + filename, { cwd: __dirname }, function (err, stdout, stderr) {
         t.ok(err)
 
