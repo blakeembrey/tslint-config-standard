@@ -1,0 +1,48 @@
+{
+  "name": "tslint-config-standard",
+  "version": "0.0.0",
+  "description": "Standard TSLint configuration",
+  "main": "tslint.js",
+  "files": [
+    "tslint.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "lint": "standard",
+    "test-spec": "blue-tape test/index.js | tap-spec",
+    "test": "npm run lint && npm run test-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/blakeembrey/tslint-config-standard.git"
+  },
+  "keywords": [
+    "tslint",
+    "config",
+    "standard",
+    "standardjs",
+    "typescript",
+    "ts"
+  ],
+  "author": {
+    "name": "Blake Embrey",
+    "email": "hello@blakeembrey.com",
+    "url": "http://blakeembrey.me"
+  },
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/blakeembrey/tslint-config-standard/issues"
+  },
+  "homepage": "https://github.com/blakeembrey/tslint-config-standard",
+  "devDependencies": {
+    "blue-tape": "^0.2.0",
+    "standard": "^7.0.1",
+    "tap-spec": "^4.1.1",
+    "tslint": "^3.10.2"
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "^1.3.0",
+    "tslint-microsoft-contrib": "^2.0.6"
+  }
+}
