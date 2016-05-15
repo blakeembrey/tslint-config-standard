@@ -27,6 +27,7 @@ test('tslint standard', function (t) {
           t.notOk(err)
 
           t.equal(stdout, result)
+          t.equal(stderr, '')
 
           t.end()
         })
