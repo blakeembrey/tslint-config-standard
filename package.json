@@ -39,7 +39,8 @@
     "blue-tape": "^0.2.0",
     "standard": "^7.0.1",
     "tap-spec": "^4.1.1",
-    "tslint": "^3.10.2"
+    "tslint": "^3.10.2",
+    "typescript": "^1.8.10"
   },
   "dependencies": {
     "tslint-eslint-rules": "^1.3.0",
