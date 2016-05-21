@@ -1,10 +1,7 @@
 var path = require('path')
 
 module.exports = {
-  rulesDirectory: [
-    path.dirname(require.resolve('tslint-microsoft-contrib')),
-    path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
-  ],
+  rulesDirectory: path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
   rules: {
     // TSLint rules.
     'member-access': false,
@@ -165,6 +162,7 @@ module.exports = {
     // 'no-empty-function': true,
     // 'no-empty-pattern': true,
     // 'no-extend-native': true,
+    // 'no-extra-bind': true,
     // 'no-floating-decimal': true,
     // 'no-implied-eval': true,
     // 'no-iterator': true,
@@ -215,7 +213,7 @@ module.exports = {
       {
         'allowSingleLine': true
       }
-    ],
+    ]
     // 'comma-spacing': [
     //   true,
     //   {
@@ -261,6 +259,7 @@ module.exports = {
     //   }
     // ],
     // 'no-whitespace-before-property': true,
+    // 'no-with': true,
     // 'one-var': [
     //   true,
     //   'never'
@@ -332,25 +331,18 @@ module.exports = {
     // 'no-new-symbol': true,
     // 'no-this-before-super': true,
     // 'no-useless-constructor': true,
+    // 'object-shorthand': [
+    //   true,
+    //   'always'
+    // ],
+    // 'prefer-const': true,
+    // 'prefer-rest-params': true,
+    // 'prefer-spread': true,
+    // 'prefer-template': true,
     // 'template-curly-spacing': [
     //   true,
     //   'never'
     // ],
-    // 'yield-star-spacing': true,
-    // TSLint MicroSoft contrib rules.
-    'no-for-in': true,
-    'no-stateless-class': true,
-    'no-string-based-set-immediate': true,
-    'no-string-based-set-interval': true,
-    'no-string-based-set-timeout': true,
-    'no-unnecessary-bind': true,
-    'no-unnecessary-local-variable': true,
-    'no-unnecessary-override': true,
-    'no-unused-imports': true,
-    'no-with-statement': true,
-    'prefer-array-literal': true,
-    'prefer-const': true,
-    'promise-must-complete': true,
-    'use-named-parameter': true
+    // 'yield-star-spacing': true
   }
 }

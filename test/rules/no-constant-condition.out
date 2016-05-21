@@ -1,1 +1,1 @@
-no-constant-condition.ts[1, 1]: Found constant conditional: if (true)
+no-constant-condition.ts[1, 5]: unexpected constant condition
