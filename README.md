@@ -24,7 +24,10 @@ npm install tslint-config-standard --save
 
 * [TSLint](https://www.npmjs.com/package/tslint)
 * [TSLint ESLint Rules](https://www.npmjs.com/package/tslint-eslint-rules)
-* [TSLint MicroSoft Contrib](https://www.npmjs.com/package/tslint-microsoft-contrib)
+
+### Help
+
+Many **TSLint ESLint Rules** are incomplete. The required missing rules are currently commented out in [`tslint.js`](tslint.js). If you get a chance, consider contributing some improvements to the rules.
 
 ## License
 
