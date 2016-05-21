@@ -9,7 +9,7 @@
 ## Installation
 
 ```sh
-npm install tslint-standard --save
+npm install tslint-config-standard --save
 ```
 
 ## Usage
