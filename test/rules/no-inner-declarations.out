@@ -1,4 +1,3 @@
 no-inner-declarations.ts[4, 20]: block is empty
 no-inner-declarations.ts[4, 12]: unused variable: 'test'
-no-inner-declarations.ts[3, 5]: do not assign to the exception parameter.
 no-inner-declarations.ts[4, 3]: move function declaration to program root
