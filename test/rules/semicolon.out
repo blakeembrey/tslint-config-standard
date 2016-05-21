@@ -1,0 +1,2 @@
+semicolon.ts[1, 7]: unused variable: 'foo'
+semicolon.ts[1, 17]: unnecessary semicolon

@@ -1,0 +1,2 @@
+trailing-comma.ts[1, 7]: unused variable: 'foo'
+trailing-comma.ts[3, 7]: trailing comma
