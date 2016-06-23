@@ -51,7 +51,7 @@ module.exports = {
     'no-duplicate-variable': true,
     'no-empty': true,
     'no-eval': true,
-    'no-string-literal': true,
+    // 'no-string-literal': true,
     'no-switch-case-fall-through': true,
     'no-unreachable': true,
     'no-unused-expression': true,
