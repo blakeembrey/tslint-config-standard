@@ -213,7 +213,7 @@ module.exports = {
       {
         'allowSingleLine': true
       }
-    ]
+    ],
     // 'comma-spacing': [
     //   true,
     //   {
