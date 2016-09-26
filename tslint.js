@@ -140,7 +140,7 @@ module.exports = {
       true,
       'functions'
     ],
-    // 'no-invalid-regexp': true,
+    'no-invalid-regexp': true,
     'no-irregular-whitespace': true,
     'no-regex-spaces': true,
     'no-sparse-arrays': true,
