@@ -19,12 +19,21 @@ test('tslint standard', function (t) {
 
   testCases.forEach(function (testCase) {
     var filename = path.relative(RULES_DIR, testCase)
+    var outfilename = testCase.replace(EXT_REGEX, '.out')
+    var name = filename.replace(EXT_REGEX, '')
 
-    t.test(filename.replace(EXT_REGEX, ''), function (t) {
+    t.test(name, function (t) {
       exec('node ' + TSLINT_BIN + ' --config ' + CONFIG_FILE + ' ' + filename, { cwd: RULES_DIR }, function (err, stdout, stderr) {
         t.ok(err)
 
-        fs.readFile(testCase.replace(EXT_REGEX, '.out'), 'utf8', function (err, result) {
+        if (process.env.GENERATE_ASSETS) {
+          return fs.writeFile(outfilename, stdout, function (err) {
+            t.notOk(err)
+            t.end()
+          })
+        }
+
+        fs.readFile(outfilename, 'utf8', function (err, result) {
           t.notOk(err)
 
           t.equal(stdout, result)

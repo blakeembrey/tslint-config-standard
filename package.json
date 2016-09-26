@@ -10,8 +10,9 @@
   ],
   "scripts": {
     "lint": "standard",
-    "test-spec": "blue-tape test/index.js | tap-spec",
-    "test": "npm run lint && npm run test-spec"
+    "test:gen": "GENERATE_ASSETS=true blue-tape test/index.js",
+    "test:spec": "blue-tape test/index.js | tap-spec",
+    "test": "npm run lint && npm run test:spec"
   },
   "repository": {
     "type": "git",
@@ -36,13 +37,13 @@
   },
   "homepage": "https://github.com/blakeembrey/tslint-config-standard",
   "devDependencies": {
-    "blue-tape": "^0.2.0",
-    "standard": "^7.0.1",
+    "blue-tape": "^1.0.0",
+    "standard": "^8.1.0",
     "tap-spec": "^4.1.1",
-    "tslint": "^3.10.2",
-    "typescript": "^1.8.10"
+    "tslint": "^3.15.1",
+    "typescript": "^2.0.3"
   },
   "dependencies": {
-    "tslint-eslint-rules": "^1.3.0"
+    "tslint-eslint-rules": "^1.5.0"
   }
 }
