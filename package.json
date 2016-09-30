@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-standard",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A TSLint config for JavaScript Standard Style",
   "main": "tslint.js",
   "files": [
