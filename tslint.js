@@ -51,7 +51,6 @@ module.exports = {
     'no-duplicate-variable': true,
     'no-empty': true,
     'no-eval': true,
-    // 'no-string-literal': true,
     'no-switch-case-fall-through': true,
     'no-unreachable': true,
     'no-unused-expression': true,
@@ -130,11 +129,16 @@ module.exports = {
       'check-typecast'
     ],
     // TSLint ESLint rules.
-    'no-constant-condition': true,
+    'no-constant-condition': [
+      true,
+      {
+        checkLoops: false
+      }
+    ],
     'no-control-regex': true,
     'no-duplicate-case': true,
     'no-empty-character-class': true,
-    // 'no-ex-assign': true,
+    'no-ex-assign': true,
     'no-extra-boolean-cast': true,
     'no-inner-declarations': [
       true,
@@ -179,6 +183,7 @@ module.exports = {
     //   true,
     //   'except-parens'
     // ],
+    // 'no-self-assign': true,
     // 'no-self-compare': true,
     // 'no-sequences': true,
     // 'no-throw-literal': true,
@@ -197,10 +202,10 @@ module.exports = {
     // 'no-label-var': true,
     // 'no-shadow-restricted-names': true,
     // 'no-undef-init': true,
-    // 'handle-callback-err': [
-    //   true,
-    //   '^(err|error)$'
-    // ],
+    'handle-callback-err': [
+      true,
+      '^(err|error)$'
+    ],
     // 'no-new-require': true,
     // 'no-path-concat': true,
     'block-spacing': [
