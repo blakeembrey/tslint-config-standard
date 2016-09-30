@@ -168,7 +168,7 @@ module.exports = {
     // 'no-iterator': true,
     // 'no-labels': true,
     // 'no-lone-blocks': true,
-    // 'no-multi-spaces': true,
+    'no-multi-spaces': true,
     // 'no-multi-str': true,
     // 'no-new': true,
     // 'no-new-func': true,
