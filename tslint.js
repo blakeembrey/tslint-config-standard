@@ -138,7 +138,7 @@ module.exports = {
     'no-control-regex': true,
     'no-duplicate-case': true,
     'no-empty-character-class': true,
-    // 'no-ex-assign': true,
+    'no-ex-assign': true,
     'no-extra-boolean-cast': true,
     'no-inner-declarations': [
       true,
@@ -202,10 +202,10 @@ module.exports = {
     // 'no-label-var': true,
     // 'no-shadow-restricted-names': true,
     // 'no-undef-init': true,
-    // 'handle-callback-err': [
-    //   true,
-    //   '^(err|error)$'
-    // ],
+    'handle-callback-err': [
+      true,
+      '^(err|error)$'
+    ],
     // 'no-new-require': true,
     // 'no-path-concat': true,
     'block-spacing': [
