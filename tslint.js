@@ -47,7 +47,6 @@ module.exports = {
     'label-position': true,
     'no-arg': true,
     'no-conditional-assignment': true,
-    'no-duplicate-key': true,
     'no-duplicate-variable': true,
     'no-empty': true,
     'no-eval': true,
