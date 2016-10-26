@@ -14,6 +14,8 @@ npm install tslint-config-standard --save
 
 ## Usage
 
+In `tslint.json`:
+
 ```json
 {
   "extends": "tslint-config-standard"
