@@ -13,7 +13,8 @@ npm install tslint-config-standard --save
 ```
 
 ## Usage
-In tslint.json:
+
+In `tslint.json`:
 
 ```json
 {
