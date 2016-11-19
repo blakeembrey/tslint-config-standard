@@ -53,7 +53,6 @@ module.exports = {
     'no-switch-case-fall-through': true,
     'no-unreachable': true,
     'no-unused-expression': true,
-    'no-unused-variable': true,
     'no-var-keyword': true,
     'radix': true,
     'triple-equals': [
