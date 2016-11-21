@@ -1,2 +1,2 @@
-handle-callback-err.ts[1, 10]: Unused function: 'cb'
+
 handle-callback-err.ts[1, 14]: Expected error to be handled
