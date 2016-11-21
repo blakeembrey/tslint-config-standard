@@ -45,5 +45,8 @@
   },
   "dependencies": {
     "tslint-eslint-rules": "^2.0.1"
+  },
+  "peerDependencies": {
+    "tslint": ">=4.0.0"
   }
 }
