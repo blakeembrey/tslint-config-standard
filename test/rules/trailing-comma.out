@@ -1,2 +1,1 @@
-trailing-comma.ts[1, 7]: Unused variable: 'foo'
 trailing-comma.ts[3, 7]: Unnecessary trailing comma
