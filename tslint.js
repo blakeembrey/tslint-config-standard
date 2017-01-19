@@ -60,9 +60,12 @@ module.exports = {
     ],
     'use-isnan': true,
     'eofline': true,
-    'indent': [
+    'ter-indent': [
       true,
-      'spaces'
+      2,
+      {
+        SwitchCase: 1
+      }
     ],
     'max-line-length': [
       true,
