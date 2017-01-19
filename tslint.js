@@ -146,6 +146,13 @@ module.exports = {
     'no-sparse-arrays': true,
     'no-unexpected-multiline': true,
     'valid-typeof': true,
+    'ter-arrow-spacing': [
+      true,
+      {
+        'before': true,
+        'after': true
+      }
+    ],
     // 'accessor-pairs': [
     //   true,
     //   {
@@ -310,13 +317,6 @@ module.exports = {
     // 'spaced-comment': [
     //   true,
     //   'always'
-    // ],
-    // 'arrow-spacing': [
-    //   true,
-    //   {
-    //     'before': true,
-    //     'after': true
-    //   }
     // ],
     // 'constructor-super': true,
     // 'generator-star-spacing': [
