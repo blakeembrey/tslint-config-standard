@@ -67,10 +67,6 @@ module.exports = {
         SwitchCase: 1
       }
     ],
-    'max-line-length': [
-      true,
-      120
-    ],
     'no-trailing-whitespace': true,
     'trailing-comma': [
       true,
