@@ -75,11 +75,6 @@ module.exports = {
         'singleline': 'never'
       }
     ],
-    'align': [
-      true,
-      'arguments',
-      'parameters'
-    ],
     'class-name': true,
     'comment-format': [
       true,
