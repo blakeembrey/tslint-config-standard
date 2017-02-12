@@ -124,6 +124,7 @@ module.exports = {
       'check-type',
       'check-typecast'
     ],
+    'space-before-function-paren': [true, 'always'],
     // TSLint ESLint rules.
     'no-constant-condition': [
       true,
