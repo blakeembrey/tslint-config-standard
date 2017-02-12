@@ -51,7 +51,7 @@ module.exports = {
     'no-empty': true,
     'no-eval': true,
     'no-switch-case-fall-through': true,
-    'no-unused-expression': true,
+    'no-unused-expression': [true, 'allow-fast-null-checks'],
     'no-var-keyword': true,
     'radix': true,
     'triple-equals': [
