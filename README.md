@@ -29,7 +29,7 @@ In `tslint.json`:
 
 ### Help
 
-Many **TSLint ESLint Rules** are incomplete. The required missing rules are currently commented out in [`tslint.js`](tslint.js). If you get a chance, consider contributing some improvements to the rules.
+Many [**TSLint ESLint Rules**](https://github.com/buzinas/tslint-eslint-rules#rules-copied-from-the-eslint-website) are incomplete and can use your help!
 
 ## License
 
