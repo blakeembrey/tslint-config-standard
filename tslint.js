@@ -97,7 +97,8 @@ module.exports = {
     'quotemark': [
       true,
       'single',
-      'avoid-escape'
+      'avoid-escape',
+      'jsx-single'
     ],
     'semicolon': [
       true,
