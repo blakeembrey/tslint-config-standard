@@ -22,6 +22,8 @@ In `tslint.json`:
 }
 ```
 
+**P.S.** Some TSLint rules may require the use of `--type-check` (and `--project`).
+
 ### Rules
 
 * [TSLint](https://www.npmjs.com/package/tslint)
