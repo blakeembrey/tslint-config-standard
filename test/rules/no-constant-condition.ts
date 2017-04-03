@@ -8,6 +8,6 @@ while (true) {
   }
 }
 
-function check () {
+export function check () {
   return true
 }

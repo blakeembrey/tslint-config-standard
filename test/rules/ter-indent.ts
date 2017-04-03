@@ -7,6 +7,6 @@
  * }
  * ```
  */
-function test () {
+export function test () {
    return true
 }

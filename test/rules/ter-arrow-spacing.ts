@@ -1,5 +1,5 @@
-function exec (cb: () => void) {
+export function exec (cb: () => void) {
   return cb()
 }
 
-exec( ()  => undefined)
+exec( ()  => null)

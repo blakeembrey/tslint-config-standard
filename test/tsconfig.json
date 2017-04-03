@@ -1,0 +1,10 @@
+{
+  "include": [
+    "rules/**/*"
+  ],
+  "compilerOptions": {
+    "target": "esnext",
+    "lib": ["dom", "es2015"],
+    "noEmit": true
+  }
+}

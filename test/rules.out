@@ -1,0 +1,10 @@
+
+ERROR: rules/handle-callback-err.ts[1, 21]: Expected error to be handled
+ERROR: rules/no-constant-condition.ts[1, 5]: unexpected constant condition
+ERROR: rules/no-inner-declarations.ts[4, 20]: block is empty
+ERROR: rules/no-inner-declarations.ts[4, 3]: move function declaration to program root
+ERROR: rules/no-multi-spaces.ts[1, 22]: Multiple spaces found before 'true'.
+ERROR: rules/semicolon.ts[1, 24]: Unnecessary semicolon
+ERROR: rules/ter-arrow-spacing.ts[5, 11]: Multiple spaces found before '=>'.
+ERROR: rules/ter-indent.ts[11, 1]: Expected indentation of 2 spaces but found 3.
+ERROR: rules/trailing-comma.ts[3, 7]: Unnecessary trailing comma

@@ -1,7 +1,5 @@
-var path = require('path')
-
 module.exports = {
-  rulesDirectory: path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules'),
+  extends: ['tslint-eslint-rules'],
   rules: {
     // TSLint rules.
     'member-access': false,
@@ -43,18 +41,22 @@ module.exports = {
         'variable-declaration': 'onespace'
       }
     ],
-    'curly': true,
+    'await-promise': true,
+    'curly': [true, 'ignore-same-line'],
     'label-position': true,
     'no-arg': true,
     'no-conditional-assignment': true,
     'no-duplicate-variable': true,
     'no-empty': true,
     'no-eval': true,
+    'no-reference-import': true,
     'no-switch-case-fall-through': true,
-    'no-unused-expression': [true, 'allow-fast-null-checks'],
+    'no-unnecessary-callback-wrapper': true,
+    'no-unused-expression': [true, 'allow-fast-null-checks', 'allow-tagged-template'],
     'no-use-before-declare': true,
     'no-var-keyword': true,
     'radix': true,
+    'return-undefined': true,
     'triple-equals': [
       true,
       'allow-null-check'
@@ -81,10 +83,16 @@ module.exports = {
       true,
       'check-space'
     ],
+    'import-spacing': true,
     'jsdoc-format': true,
     'new-parens': true,
     'no-angle-bracket-type-assertion': true,
     'no-consecutive-blank-lines': true,
+    'no-floating-promises': true,
+    'no-misused-new': true,
+    'no-string-throw': true,
+    'no-unnecessary-qualifier': true,
+    'no-unsafe-any': true,
     'one-line': [
       true,
       'check-catch',
@@ -104,6 +112,9 @@ module.exports = {
       true,
       'never'
     ],
+    'strict-type-predicates': true,
+    'space-before-function-paren': [true, 'always'],
+    'unified-signatures': true,
     'variable-name': [
       true,
       'ban-keywords',
@@ -119,9 +130,9 @@ module.exports = {
       'check-module',
       'check-seperator',
       'check-type',
-      'check-typecast'
+      'check-typecast',
+      'check-preblock'
     ],
-    'space-before-function-paren': [true, 'always'],
     // TSLint ESLint rules.
     'no-constant-condition': [
       true,
