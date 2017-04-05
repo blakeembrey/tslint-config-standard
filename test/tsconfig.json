@@ -5,6 +5,8 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": ["dom", "es2015"],
-    "noEmit": true
+    "noEmit": true,
+    "module": "commonjs",
+    "moduleResolution": "node"
   }
 }

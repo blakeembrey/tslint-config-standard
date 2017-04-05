@@ -83,7 +83,6 @@ module.exports = {
       true,
       'check-space'
     ],
-    'import-spacing': true,
     'jsdoc-format': true,
     'new-parens': true,
     'no-angle-bracket-type-assertion': true,
@@ -92,7 +91,6 @@ module.exports = {
     'no-misused-new': true,
     'no-string-throw': true,
     'no-unnecessary-qualifier': true,
-    'no-unsafe-any': true,
     'one-line': [
       true,
       'check-catch',
