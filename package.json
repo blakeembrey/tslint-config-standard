@@ -38,12 +38,12 @@
   "homepage": "https://github.com/blakeembrey/tslint-config-standard",
   "devDependencies": {
     "blue-tape": "^1.0.0",
-    "standard": "^8.1.0",
+    "standard": "^10.0.0",
     "tap-spec": "^4.1.1",
-    "tslint": "^4.4.2",
+    "tslint": "^5.0.0",
     "typescript": "^2.0.3"
   },
   "dependencies": {
-    "tslint-eslint-rules": "^3.2.3"
+    "tslint-eslint-rules": "^4.0.0"
   }
 }

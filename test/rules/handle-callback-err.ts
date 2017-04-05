@@ -1,3 +1,3 @@
-function cb (err) {
+export function cb (err) {
   console.log('hello world')
 }
