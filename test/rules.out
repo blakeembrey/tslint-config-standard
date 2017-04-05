@@ -1,4 +1,5 @@
 
+ERROR: rules/curly.ts[4, 3]: if statements must be braced
 ERROR: rules/handle-callback-err.ts[1, 21]: Expected error to be handled
 ERROR: rules/import-spacing.ts[1, 7]: missing whitespace
 ERROR: rules/no-constant-condition.ts[1, 5]: unexpected constant condition
