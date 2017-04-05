@@ -51,7 +51,6 @@ module.exports = {
     'no-eval': true,
     'no-reference-import': true,
     'no-switch-case-fall-through': true,
-    'no-unnecessary-callback-wrapper': true,
     'no-unused-expression': [true, 'allow-fast-null-checks', 'allow-tagged-template'],
     'no-use-before-declare': true,
     'no-var-keyword': true,
