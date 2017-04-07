@@ -52,6 +52,7 @@ module.exports = {
     'no-reference-import': true,
     'no-switch-case-fall-through': true,
     'no-unused-expression': [true, 'allow-fast-null-checks', 'allow-tagged-template'],
+    'no-unused-variable': [true, { 'ignore-pattern': '^_' }],
     'no-use-before-declare': true,
     'no-var-keyword': true,
     'radix': true,
