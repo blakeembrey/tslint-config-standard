@@ -1,10 +1,9 @@
 # TSLint Config Standard
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/tslint-config-standard.svg)](https://greenkeeper.io/)
-
 [![NPM version][npm-image]][npm-url]
 [![NPM downloads][downloads-image]][downloads-url]
 [![Build status][travis-image]][travis-url]
+[![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/tslint-config-standard.svg)](https://greenkeeper.io/)
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/)
 
