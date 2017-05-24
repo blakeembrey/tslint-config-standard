@@ -1,8 +1,8 @@
 # TSLint Config Standard
 
-[![NPM version][npm-image]][npm-url]
-[![NPM downloads][downloads-image]][downloads-url]
-[![Build status][travis-image]][travis-url]
+[![NPM version](https://img.shields.io/npm/v/tslint-config-standard.svg?style=flat)](https://npmjs.org/package/tslint-config-standard)
+[![NPM downloads](https://img.shields.io/npm/dm/tslint-config-standard.svg?style=flat)](https://npmjs.org/package/tslint-config-standard)
+[![Build status](https://img.shields.io/travis/blakeembrey/tslint-config-standard.svg?style=flat)](https://travis-ci.org/blakeembrey/tslint-config-standard)
 [![Greenkeeper badge](https://badges.greenkeeper.io/blakeembrey/tslint-config-standard.svg)](https://greenkeeper.io/)
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/)
@@ -37,10 +37,3 @@ Many [**TSLint ESLint Rules**](https://github.com/buzinas/tslint-eslint-rules#ru
 ## License
 
 Apache 2.0
-
-[npm-image]: https://img.shields.io/npm/v/tslint-config-standard.svg?style=flat
-[npm-url]: https://npmjs.org/package/tslint-config-standard
-[downloads-image]: https://img.shields.io/npm/dm/tslint-config-standard.svg?style=flat
-[downloads-url]: https://npmjs.org/package/tslint-config-standard
-[travis-image]: https://img.shields.io/travis/blakeembrey/tslint-config-standard.svg?style=flat
-[travis-url]: https://travis-ci.org/blakeembrey/tslint-config-standard
