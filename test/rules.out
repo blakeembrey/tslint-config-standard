@@ -1,14 +1,13 @@
-
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/curly.ts[4, 3]: if statements must be braced
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/handle-callback-err.ts[1, 21]: Expected error to be handled
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/import-spacing.ts[2, 1]: All imports are unused.
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/import-spacing.ts[1, 7]: missing whitespace
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/no-constant-condition.ts[1, 5]: unexpected constant condition
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/no-inner-declarations.ts[4, 20]: block is empty
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/no-inner-declarations.ts[4, 12]: 'test' is declared but never used.
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/no-inner-declarations.ts[4, 3]: move function declaration to program root
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/no-multi-spaces.ts[1, 22]: Multiple spaces found before 'true'.
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/semicolon.ts[1, 24]: Unnecessary semicolon
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/ter-arrow-spacing.ts[5, 11]: Multiple spaces found before '=>'.
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/ter-indent.ts[11, 1]: Expected indentation of 2 spaces but found 3.
-ERROR: /Users/blakeembrey/Projects/GitHub/blakeembrey/tslint-config-standard/test/rules/trailing-comma.ts[3, 7]: Unnecessary trailing comma
+ERROR: /rules/curly.ts[4, 3]: if statements must be braced
+ERROR: /rules/handle-callback-err.ts[1, 21]: Expected error to be handled
+ERROR: /rules/import-spacing.ts[2, 1]: All imports are unused.
+ERROR: /rules/import-spacing.ts[1, 7]: missing whitespace
+ERROR: /rules/no-constant-condition.ts[1, 5]: unexpected constant condition
+ERROR: /rules/no-inner-declarations.ts[4, 20]: block is empty
+ERROR: /rules/no-inner-declarations.ts[4, 12]: 'test' is declared but never used.
+ERROR: /rules/no-inner-declarations.ts[4, 3]: move function declaration to program root
+ERROR: /rules/no-multi-spaces.ts[1, 22]: Multiple spaces found before 'true'.
+ERROR: /rules/semicolon.ts[1, 24]: Unnecessary semicolon
+ERROR: /rules/ter-arrow-spacing.ts[5, 11]: Multiple spaces found before '=>'.
+ERROR: /rules/ter-indent.ts[11, 1]: Expected indentation of 2 spaces but found 3.
+ERROR: /rules/trailing-comma.ts[3, 7]: Unnecessary trailing comma
