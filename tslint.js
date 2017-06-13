@@ -126,7 +126,7 @@ module.exports = {
       'check-decl',
       'check-operator',
       'check-module',
-      'check-seperator',
+      'check-separator',
       'check-type',
       'check-typecast',
       'check-preblock'
