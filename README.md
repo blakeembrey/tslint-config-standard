@@ -10,7 +10,7 @@
 ## Installation
 
 ```sh
-npm install tslint-config-standard --save
+npm install tslint-config-standard --save-dev
 ```
 
 ## Usage
