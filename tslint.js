@@ -174,6 +174,7 @@ module.exports = {
       {
         'allowSingleLine': true
       }
-    ]
+    ],
+    'object-curly-spacing': [true, 'always']
   }
 }
