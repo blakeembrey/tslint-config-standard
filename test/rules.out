@@ -15,6 +15,10 @@ ERROR: /rules/no-inner-declarations.ts[4, 20]: block is empty
 ERROR: /rules/no-inner-declarations.ts[4, 12]: 'test' is declared but never used.
 ERROR: /rules/no-inner-declarations.ts[4, 3]: move function declaration to program root
 ERROR: /rules/no-multi-spaces.ts[1, 22]: Multiple spaces found before 'true'.
+ERROR: /rules/object-destruct-spacing.ts[1, 13]: A space is required after '{'
+ERROR: /rules/object-destruct-spacing.ts[1, 19]: A space is required before '}'
+ERROR: /rules/object-destruct-spacing.ts[1, 26]: A space is required after '{'
+ERROR: /rules/object-destruct-spacing.ts[1, 32]: A space is required before '}'
 ERROR: /rules/semicolon.ts[1, 24]: Unnecessary semicolon
 ERROR: /rules/ter-arrow-spacing.ts[5, 11]: Multiple spaces found before '=>'.
 ERROR: /rules/ter-indent.ts[11, 1]: Expected indentation of 2 spaces but found 3.
