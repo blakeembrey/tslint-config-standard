@@ -16,6 +16,8 @@ ERROR: /rules/object-destruct-spacing.ts[1, 19]: A space is required before '}'
 ERROR: /rules/object-destruct-spacing.ts[1, 26]: A space is required after '{'
 ERROR: /rules/object-destruct-spacing.ts[1, 32]: A space is required before '}'
 ERROR: /rules/semicolon.ts[1, 24]: Unnecessary semicolon
-ERROR: /rules/ter-arrow-spacing.ts[5, 11]: Multiple spaces found before '=>'.
+ERROR: /rules/space-within-parens.ts[1, 16]: Whitespace within parentheses is not allowed
+ERROR: /rules/space-within-parens.ts[1, 21]: Whitespace within parentheses is not allowed
+ERROR: /rules/ter-arrow-spacing.ts[5, 10]: Multiple spaces found before '=>'.
 ERROR: /rules/ter-indent.ts[11, 1]: Expected indentation of 2 spaces but found 3.
 ERROR: /rules/trailing-comma.ts[3, 7]: Unnecessary trailing comma

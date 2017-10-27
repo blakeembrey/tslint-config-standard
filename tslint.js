@@ -2,7 +2,6 @@ module.exports = {
   extends: ['tslint-eslint-rules'],
   rules: {
     // TSLint rules.
-    'member-access': false,
     'member-ordering': [
       true,
       {
@@ -46,10 +45,12 @@ module.exports = {
     'label-position': true,
     'no-arg': true,
     'no-conditional-assignment': true,
+    'no-duplicate-imports': true,
     'no-duplicate-variable': true,
     'no-empty': true,
     'no-eval': true,
     'no-reference-import': true,
+    'no-return-await': true,
     'no-switch-case-fall-through': true,
     'no-unused-expression': [true, 'allow-fast-null-checks', 'allow-tagged-template'],
     'no-unused-variable': [true, { 'ignore-pattern': '^_' }],
@@ -57,6 +58,7 @@ module.exports = {
     'no-var-keyword': true,
     'radix': true,
     'return-undefined': true,
+    'space-within-parens': [true, 0],
     'triple-equals': [
       true,
       'allow-null-check'
@@ -91,6 +93,7 @@ module.exports = {
     'no-misused-new': true,
     'no-string-throw': true,
     'no-unnecessary-qualifier': true,
+    'no-unnecessary-type-assertion': true,
     'one-line': [
       true,
       'check-catch',
@@ -126,8 +129,10 @@ module.exports = {
       'check-decl',
       'check-operator',
       // 'check-module',
+      'check-rest-spread',
       'check-type',
       'check-typecast',
+      'check-type-operator',
       'check-preblock'
     ],
     // TSLint ESLint rules.
@@ -147,9 +152,10 @@ module.exports = {
       'functions'
     ],
     'no-invalid-regexp': true,
-    'no-irregular-whitespace': true,
+    'ter-no-irregular-whitespace': true,
     'no-regex-spaces': true,
-    'no-sparse-arrays': true,
+    'ter-no-sparse-arrays': true,
+    'ter-func-call-spacing': [true, 'never'],
     'no-unexpected-multiline': true,
     'valid-typeof': true,
     'ter-arrow-spacing': [

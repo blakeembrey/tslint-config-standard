@@ -45,6 +45,6 @@
     "typescript": "^2.3.4"
   },
   "dependencies": {
-    "tslint-eslint-rules": "^4.0.0"
+    "tslint-eslint-rules": "^4.1.1"
   }
 }

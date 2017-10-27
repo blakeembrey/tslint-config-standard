@@ -2,4 +2,4 @@ export function exec (cb: () => void) {
   return cb()
 }
 
-exec( ()  => null)
+exec(()  => null)
