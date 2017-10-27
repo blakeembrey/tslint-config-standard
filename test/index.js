@@ -5,7 +5,7 @@ var test = require('blue-tape')
 
 var OUT_FILENAME = path.join(__dirname, 'rules.out')
 var TSLINT_BIN = require.resolve('tslint/bin/tslint')
-var TSLINT_CMD = 'node ' + TSLINT_BIN + ' --config ../tslint.js --project tsconfig.json --type-check "rules/**/*.ts"'
+var TSLINT_CMD = 'node ' + TSLINT_BIN + ' --config ../tslint.js --project tsconfig.json "rules/**/*.ts"'
 
 test('tslint standard', function (t) {
   exec(TSLINT_CMD, { cwd: __dirname }, function (err, stdout, stderr) {

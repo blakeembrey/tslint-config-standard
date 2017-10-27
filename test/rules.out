@@ -1,15 +1,15 @@
 ERROR: /rules/curly.ts[4, 3]: if statements must be braced
 ERROR: /rules/handle-callback-err.ts[1, 21]: Expected error to be handled
-ERROR: /rules/import-spacing.ts[2, 1]: All imports are unused.
 ERROR: /rules/import-spacing.ts[1, 7]: missing whitespace
 ERROR: /rules/import-spacing.ts[1, 7]: A space is required after '{'
 ERROR: /rules/import-spacing.ts[1, 22]: A space is required before '}'
+ERROR: /rules/import-spacing.ts[2, 1]: All imports are unused.
 ERROR: /rules/import-spacing.ts[2, 8]: A space is required after '{'
 ERROR: /rules/import-spacing.ts[2, 17]: A space is required before '}'
 ERROR: /rules/no-constant-condition.ts[1, 5]: unexpected constant condition
-ERROR: /rules/no-inner-declarations.ts[4, 20]: block is empty
-ERROR: /rules/no-inner-declarations.ts[4, 12]: 'test' is declared but never used.
 ERROR: /rules/no-inner-declarations.ts[4, 3]: move function declaration to program root
+ERROR: /rules/no-inner-declarations.ts[4, 12]: 'test' is declared but never used.
+ERROR: /rules/no-inner-declarations.ts[4, 20]: block is empty
 ERROR: /rules/no-multi-spaces.ts[1, 22]: Multiple spaces found before 'true'.
 ERROR: /rules/object-destruct-spacing.ts[1, 13]: A space is required after '{'
 ERROR: /rules/object-destruct-spacing.ts[1, 19]: A space is required before '}'
