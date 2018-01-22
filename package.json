@@ -1,6 +1,6 @@
 {
-  "name": "tslint-config-standard",
-  "version": "7.0.0",
+  "name": "dcl-tslint-config-standard",
+  "version": "1.0.0",
   "description": "A TSLint config for JavaScript Standard Style",
   "main": "tslint.js",
   "files": [
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/blakeembrey/tslint-config-standard.git"
+    "url": "git://github.com/decentraland/tslint-config-standard.git"
   },
   "keywords": [
     "tslint",
@@ -27,15 +27,15 @@
     "ts"
   ],
   "author": {
-    "name": "Blake Embrey",
-    "email": "hello@blakeembrey.com",
-    "url": "http://blakeembrey.me"
+    "name": "Decentraland",
+    "email": "hello@decentraland.org",
+    "url": "https://decentraland.org"
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/blakeembrey/tslint-config-standard/issues"
+    "url": "https://github.com/decentraland/tslint-config-standard/issues"
   },
-  "homepage": "https://github.com/blakeembrey/tslint-config-standard",
+  "homepage": "https://github.com/decentraland/tslint-config-standard",
   "devDependencies": {
     "@types/node": "^8.0.47",
     "blue-tape": "^1.0.0",

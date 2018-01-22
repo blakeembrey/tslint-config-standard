@@ -114,8 +114,8 @@ module.exports = {
       'never'
     ],
     'strict-type-predicates': true,
-    'space-before-function-paren': [true, 'always'],
-    'unified-signatures': true,
+    'space-before-function-paren': [false],
+    'unified-signatures': false,
     'variable-name': [
       true,
       'ban-keywords',
