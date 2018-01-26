@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/blakeembrey/tslint-config-standard",
   "devDependencies": {
-    "@types/node": "^8.0.47",
+    "@types/node": "^9.4.0",
     "blue-tape": "^1.0.0",
     "standard": "^10.0.0",
     "tap-spec": "^4.1.1",
