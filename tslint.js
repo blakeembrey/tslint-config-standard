@@ -1,5 +1,9 @@
 module.exports = {
-  extends: ['tslint-eslint-rules'],
+  extends: [
+    'tslint-eslint-rules',
+    'tslint-no-circular-imports',
+    'tslint-clean-code'
+  ],
   rules: {
     // TSLint rules.
     'member-ordering': [
@@ -181,6 +185,8 @@ module.exports = {
         'allowSingleLine': true
       }
     ],
-    'object-curly-spacing': [true, 'always']
+    'object-curly-spacing': [true, 'always'],
+    // tslint-clean-code rules
+    'no-commented-out-code': true
   }
 }
