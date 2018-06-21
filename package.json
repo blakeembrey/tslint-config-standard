@@ -37,14 +37,14 @@
   },
   "homepage": "https://github.com/blakeembrey/tslint-config-standard",
   "devDependencies": {
-    "@types/node": "^8.0.47",
+    "@types/node": "^10.3.4",
     "blue-tape": "^1.0.0",
-    "standard": "^10.0.0",
-    "tap-spec": "^4.1.1",
+    "standard": "^11.0.1",
+    "tap-spec": "^5.0.0",
     "tslint": "^5.8.0",
     "typescript": "^2.3.4"
   },
   "dependencies": {
-    "tslint-eslint-rules": "^4.1.1"
+    "tslint-eslint-rules": "^5.3.1"
   }
 }
