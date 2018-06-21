@@ -2,26 +2,6 @@ module.exports = {
   extends: ['tslint-eslint-rules'],
   rules: {
     // TSLint rules.
-    'member-ordering': [
-      true,
-      {
-        order: [
-          'public-static-field',
-          'protected-static-field',
-          'private-static-field',
-          'public-instance-field',
-          'protected-instance-field',
-          'private-instance-field',
-          'constructor',
-          'public-static-method',
-          'protected-static-method',
-          'private-static-method',
-          'public-instance-method',
-          'protected-instance-method',
-          'private-instance-method'
-        ]
-      }
-    ],
     'no-internal-module': true,
     'typedef-whitespace': [
       true,
@@ -57,7 +37,6 @@ module.exports = {
     'no-use-before-declare': true,
     'no-var-keyword': true,
     'radix': true,
-    'return-undefined': true,
     'space-within-parens': [true, 0],
     'triple-equals': [
       true,
