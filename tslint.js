@@ -22,6 +22,7 @@ module.exports = {
     ],
     'await-promise': true,
     'curly': [true, 'ignore-same-line'],
+    'deprecation': true,
     'label-position': true,
     'no-arg': true,
     'no-conditional-assignment': true,
