@@ -42,7 +42,7 @@
     "standard": "^11.0.1",
     "tap-spec": "^5.0.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.3.4"
+    "typescript": "^2.3.4 || ^3.0.0"
   },
   "dependencies": {
     "tslint-eslint-rules": "^5.3.1"
