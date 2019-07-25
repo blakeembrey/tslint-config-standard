@@ -160,5 +160,6 @@ module.exports = {
       }
     ],
     'object-curly-spacing': [true, 'always']
-  }
+  },
+  jsRules: true
 }
