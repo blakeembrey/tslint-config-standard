@@ -26,8 +26,8 @@ In `tslint.json`:
 
 ### Rules
 
-* [TSLint](https://www.npmjs.com/package/tslint)
-* [TSLint ESLint Rules](https://www.npmjs.com/package/tslint-eslint-rules)
+- [TSLint](https://www.npmjs.com/package/tslint)
+- [TSLint ESLint Rules](https://www.npmjs.com/package/tslint-eslint-rules)
 
 ### Help
 

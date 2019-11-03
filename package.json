@@ -9,7 +9,9 @@
     "LICENSE"
   ],
   "scripts": {
-    "lint": "standard",
+    "lint": "eslint \"*.js\" \"test/*.js\"",
+    "prettier": "prettier --write",
+    "format": "npm run prettier -- \"{.,test}/*.{js,md,yml,yaml}\"",
     "test:gen": "GENERATE_ASSETS=true blue-tape test/index.js",
     "test:spec": "blue-tape test/index.js | tap-spec",
     "test": "npm run lint && npm run test:spec"
@@ -36,13 +38,33 @@
     "url": "https://github.com/blakeembrey/tslint-config-standard/issues"
   },
   "homepage": "https://github.com/blakeembrey/tslint-config-standard",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,css,md,yml,yaml}": [
+      "npm run prettier",
+      "git add"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
-    "@types/node": "^10.3.4",
+    "@types/node": "^12.12.5",
     "blue-tape": "^1.0.0",
-    "standard": "^11.0.1",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-config-standard": "^14.1.0",
+    "husky": "^3.0.9",
+    "lint-staged": "^9.4.2",
+    "prettier": "^1.18.2",
+    "standard": "^14.3.1",
     "tap-spec": "^5.0.0",
     "tslint": "^5.8.0",
-    "typescript": "^2.3.4"
+    "typescript": "^3.6.4"
   },
   "dependencies": {
     "tslint-eslint-rules": "^5.3.1"
